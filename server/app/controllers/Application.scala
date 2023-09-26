@@ -12,6 +12,7 @@ class Application @Inject()(cc: ControllerComponents) extends AbstractController
     Ok(views.html.index(SharedMessages.itWorks))
   }
 
+ 
 
 
 }

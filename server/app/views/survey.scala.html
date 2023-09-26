@@ -1,0 +1,18 @@
+@(answers:Seq[String])
+
+@main("Hello world") {
+
+  <form method="GET" action ="@routes.Home.info">
+    <h2>User Info</h2>
+    <br>
+    firstName: <input type="text" name="firstName"></input>
+    <br>
+    color: <input type="text" name="color"></input>
+    <br>
+    <input type="submit"></input>
+
+
+  </form>
+  
+
+}
